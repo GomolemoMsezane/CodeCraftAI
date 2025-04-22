@@ -1,0 +1,13 @@
+{
+  "name": "CodeCraftAI Dev Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-python.python"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "cd client && npm install && cd ../server && npm install"
+}
