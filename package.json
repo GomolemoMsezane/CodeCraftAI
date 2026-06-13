@@ -2,7 +2,8 @@
   "name": "codecraftai",
   "version": "1.0.0",
   "scripts": {
-    "start": "node backend/index.js",
-    "install-backend": "cd backend && npm install"
-  }
+    "build": "cd backend && npm install",
+    "start": "node backend/index.js"
+  },
+  "dependencies": {}
 }
